@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="org.seleniumhq.selenium:selenium-support:2.0a1" type="repository">
+    <properties maven-id="org.seleniumhq.selenium:selenium-support:2.0a1" />
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/selenium-support-2.0a1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/selenium-common-2.0a1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/google-collections-1.0-rc3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/hamcrest-all-1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/junit-3.8.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
