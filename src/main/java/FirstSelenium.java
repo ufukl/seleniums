@@ -93,18 +93,8 @@ public class FirstSelenium {
     }
 
     public void clickKaldirTest() {
-        WebElement divElement = webDriver.findElement(By.className("rightColumn"));
-        List<WebElement> ahrefElements= divElement.findElements(By.tagName("a"));
 
-        String tdsArray[]=new String[ahrefElements.size()];
-
-        for(int i = 0; i < ahrefElements.size(); i++) {
-            tdsArray[i] = ahrefElements.get(i).getClass().getName();
-
-            if(tdsArray[i] != null &&tdsArray[i].equals("http://www.n11.com/samsung-i8200-galaxy-s3-mini-cep-telefonu-P13631913")) {
-                ahrefElements.get(i).findElement(By.linkText("Kaldır")).click();
-            }
-        }
+        webDriver.findElement(By.linkText("Kaldır")).click();
     }
 
 
